@@ -1,6 +1,6 @@
 import { PollStatus } from '../types';
 
-const BASE_URL = '/api';
+const BASE_URL = "https://what-ef-production.up.railway.app";
 
 const handleResponse = async (response) => {
     if (!response.ok) {
