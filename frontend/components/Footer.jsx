@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { subscribeToNewsletter } from "../serviceshttps://what-ef-production.up.railway.app/api";
+import { subscribeToNewsletter } from "../services/api";
 import { useToast } from "../context/ToastContext";
 const Footer = () => {
   const [email, setEmail] = useState("");

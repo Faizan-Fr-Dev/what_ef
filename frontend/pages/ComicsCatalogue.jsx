@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from "react";
-import { getComics, getBundles } from "../serviceshttps://what-ef-production.up.railway.app/api";
+import { getComics, getBundles } from "../services/api";
 import ComicCard from "../components/ComicCard";
 import { useNavigate } from "react-router-dom";
 import HeroSection from "../components/HeroSection";

@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { getBundleById, getComicsByBundleId } from "../serviceshttps://what-ef-production.up.railway.app/api";
+import { getBundleById, getComicsByBundleId } from "../services/api";
 import ComicCard from "../components/ComicCard";
 import { useNavigate } from "react-router-dom";
 const BundleDetail = () => {

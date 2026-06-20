@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { PollStatus } from "../types";
-import { getPolls, submitVote } from "../serviceshttps://what-ef-production.up.railway.app/api";
+import { getPolls, submitVote } from "../services/api";
 import PollCard from "../components/PollCard";
 import { useAuth } from "../context/AuthContext";
 const FanPolls = () => {

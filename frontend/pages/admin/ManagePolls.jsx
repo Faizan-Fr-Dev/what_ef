@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "../../context/AuthContext";
 import { useToast } from "../../context/ToastContext";
-import { getPolls, createPoll, updatePollStatus, deletePoll } from "../../serviceshttps://what-ef-production.up.railway.app/api";
+import { getPolls, createPoll, updatePollStatus, deletePoll } from "../../services/api";
 import { PollStatus } from "../../types";
 import ConfirmationModal from "../../components/ConfirmationModal";
 const ManagePolls = () => {

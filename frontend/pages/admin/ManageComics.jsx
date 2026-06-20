@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "../../context/AuthContext";
 import { useToast } from "../../context/ToastContext";
-import { getComics, createComic, updateComic, deleteComic } from "../../serviceshttps://what-ef-production.up.railway.app/api";
+import { getComics, createComic, updateComic, deleteComic } from "../../services/api";
 import ConfirmationModal from "../../components/ConfirmationModal";
 const ManageComics = () => {
   const { user: currentUser } = useAuth();
