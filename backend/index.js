@@ -8,7 +8,9 @@ const bcrypt = require('bcryptjs');
 const app = express();
 const PORT = process.env.PORT || 3008;
 
-app.use(cors());
+app.use(cors({
+    origin: "https://what-ef-43uj.vercel.app"
+}));
 app.use(bodyParser.json());
 
 // Logging middleware
