@@ -1,0 +1,5 @@
+{
+  "name": "AI Comic E-Commerce Dashboard",
+  "description": "An interactive dashboard for a comic e-commerce platform, featuring a comic catalogue, fan polls, series bundles, and custom edition requests. Built with React, Tailwind CSS, and integrated with Gemini API for AI-powered content generation.",
+  "requestFramePermissions": []
+}

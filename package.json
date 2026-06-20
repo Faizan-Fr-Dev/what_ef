@@ -1,20 +1,26 @@
 {
-  "name": "ai-comic-e-commerce-dashboard",
+  "name": "what-ef-fullstack",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "dev:frontend": "vite frontend",
+    "dev:backend": "node backend/index.js",
+    "build": "vite build frontend",
+    "start": "node backend/index.js"
   },
   "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-router-dom": "^7.9.4"
+    "react-router-dom": "^7.9.4",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^5.0.0",
+    "nodemon": "^3.1.11",
     "vite": "^6.2.0"
   }
 }
