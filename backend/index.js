@@ -456,10 +456,7 @@ function mapCustomEditions(rows) {
     });
 }
 
-if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
-    app.listen(PORT, '0.0.0.0', () => {
-        console.log(`Backend server ready on port ${PORT}`);
-    });
-}
-
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Backend server ready on port ${PORT}`);
+});
 module.exports = app;
