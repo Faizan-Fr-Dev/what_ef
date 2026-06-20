@@ -6,7 +6,7 @@ const db = require('./db');
 const bcrypt = require('bcryptjs');
 
 const app = express();
-const PORT = 3008;
+const PORT = process.env.PORT || 3008;
 
 app.use(cors());
 app.use(bodyParser.json());
