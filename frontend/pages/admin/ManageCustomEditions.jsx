@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "../../context/AuthContext";
 import { useToast } from "../../context/ToastContext";
-import { getAdminCustomEditions, updateCustomEditionStatus } from "../../services/api";
+import { getAdminCustomEditions, updateCustomEditionStatus } from "../../serviceshttps://what-ef-production.up.railway.app/api";
 const ManageCustomEditions = () => {
   const { user: currentUser } = useAuth();
   const { addToast } = useToast();

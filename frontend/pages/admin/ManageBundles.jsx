@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "../../context/AuthContext";
 import { useToast } from "../../context/ToastContext";
-import { getBundles, createBundle, updateBundle, deleteBundle, getComics, updateComic } from "../../services/api";
+import { getBundles, createBundle, updateBundle, deleteBundle, getComics, updateComic } from "../../serviceshttps://what-ef-production.up.railway.app/api";
 import ConfirmationModal from "../../components/ConfirmationModal";
 const ManageBundles = () => {
   const { user: currentUser } = useAuth();

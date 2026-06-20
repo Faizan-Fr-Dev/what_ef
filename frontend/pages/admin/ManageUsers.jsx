@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useAuth } from "../../context/AuthContext";
 import { useToast } from "../../context/ToastContext";
-import { getUsers, deleteUser, updateUserRole } from "../../services/api";
+import { getUsers, deleteUser, updateUserRole } from "../../serviceshttps://what-ef-production.up.railway.app/api";
 import ConfirmationModal from "../../components/ConfirmationModal";
 const ManageUsers = () => {
   const { user: currentUser } = useAuth();
