@@ -15,7 +15,7 @@ export default defineConfig(({ mode }) => {
           port: 3005
         },
         proxy: {
-          'https://what-ef-production.up.railway.app/api': {
+          '/api': {
             target: 'http://localhost:3008',
             changeOrigin: true,
             secure: false
