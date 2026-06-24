@@ -117,3 +117,9 @@ Open **[http://localhost:3005](http://localhost:3005)** in your browser to view 
    - Set the **Root Directory** to `frontend`.
    - Vercel will automatically detect Vite and set the build command to `npm run build` and output directory to `dist`.
 3. Set up the Environment Variables (optional, defaults to local/Railway fallback) or let the dynamic base URL routing handle it.
+
+---
+
+## 👤 Author
+Designed and engineered with 💻 by [Faizan-Fr-Dev](https://github.com/Faizan-Fr-Dev)
+
