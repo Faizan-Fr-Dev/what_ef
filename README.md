@@ -6,7 +6,7 @@ A modern, full-stack web application for an AI-generated comic e-commerce platfo
 
 ## 🚀 Live Demo & Deployments
 - **Frontend (UI)**: Deployed on [Vercel](https://vercel.com/)
-- **Backend (API)**: Deployed on [Railway](https://railway.app/)    **Note:** The live demo was previously deployed on Railway. It is currently unavailable due to hosting/usage limitations. The project source code remains available in this repository.
+- **Backend (API)**: Deployed on [Railway](https://railway.app/)  > **Note:** The live demo was previously deployed on Railway. It is currently unavailable due to hosting/usage limitations. The project source code remains available in this repository.
 
 
 ---
